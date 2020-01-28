@@ -9,7 +9,7 @@ h1 {
   font-size: 70px;
   font-weight: bolder;
 }
-h2,a {
+h2,a,h3,h4 {
   color: #cf0025;
   font-weight: 700;
 }
