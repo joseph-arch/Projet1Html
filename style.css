@@ -7,23 +7,26 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Libre Baskerville', serif;}
 h1 {
   text-align: center;
   font-size: 70px;
-  font-weight: bolder;
 }
 h2,a,h3,h4 {
   color: #cf0025;
   font-weight: 700;
 }
-
+h2 {
+  font-size: 27px;
+}
 table { border-collapse:collapse }
 th {
   background: #333;
-  padding: 10px;
   color: #ddd;
-  font-weight: bold !important;
   border-width: 0px;
 }
-td {padding: 10px;}
-tbody tr:nth-child(odd){background-color: #ddd;}
+th,td {padding: 10px;}
+
+tbody tr:nth-child(odd){
+  background-color: #ddd;
+}
+
 tr:hover,tbody tr:nth-child(odd):hover {
   cursor:pointer;
   background-color: #999;
