@@ -59,3 +59,10 @@ img {width:100%;}
   line-height: 30px;
   font-weight: bold;
 }
+pre
+{
+  color: #4e41ae;
+  background: #b7b7b7;
+  border: 3px dashed #4e41ae;
+  display: inline-block;
+}
