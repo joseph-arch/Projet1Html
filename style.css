@@ -1,8 +1,8 @@
-body {
+body  {
   background:#c8c8c8;
   padding: 10px 120px;
 }
-body {font-family: 'Roboto', sans-serif;}
+body ,pre {font-family: 'Roboto', sans-serif;}
 h1,h2,h3,h4,h5,h6 {font-family: 'Libre Baskerville', serif;}
 h1 {
   text-align: center;
@@ -58,11 +58,4 @@ img {width:100%;}
   border: 3px dashed #4e41ae;
   line-height: 30px;
   font-weight: bold;
-}
-pre
-{
-  color: #4e41ae;
-  background: #b7b7b7;
-  border: 3px dashed #4e41ae;
-  display: inline-block;
 }
